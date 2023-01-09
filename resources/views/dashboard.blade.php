@@ -9,7 +9,7 @@
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
 
-                <div x-data="editor('<p>Hello world! :-)</p>')">
+                <div x-data="editor('<h2>Hi there,</h2><p>this is a basic <em>basic</em> example of <strong>tiptap</strong>. Sure, there are all kind of basic text styles you\'d probably expect from a text editor. But wait until you see the lists:</p>')">
 
                     <template x-if="isLoaded()">
                         <div class="menu">
@@ -33,6 +33,7 @@
 
                     <div x-ref="element"></div>
                 </div>
+
             </div>
         </div>
     </div>
